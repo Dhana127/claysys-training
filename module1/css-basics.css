@@ -1,0 +1,131 @@
+header{
+    text-align: center;
+}
+nav{
+    padding: 2px;
+    background-color:black; 
+}
+nav a{
+    color: white;
+    
+}
+
+nav a:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.nav-link {
+    
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li{
+    margin: 0 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.intro-div{
+    background-color: grey;
+    padding: 2px;
+    margin: 4px;
+    border: 1px;
+}
+
+.intro-div h1{
+    padding: 4px;
+}
+.intro-div p{
+    padding: 4px;
+}
+
+.content-box{
+    background-color: aliceblue;
+    display:inline-flex;
+    width: 100%;
+    /* margin: 10px; */
+    
+}
+
+.box-1{
+    display: inline;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+.box-2{
+    display: inline;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+.box-3{
+    display: inline;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+
+.pseudo-class-elements{
+    background-color: grey;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.pseudo-class{
+    padding: 4px;
+}
+.pseudo-class a:link {
+  color: #FF0000;
+}
+.pseudo-class a:visited {
+  color: #00FF00;
+}
+.pseudo-class a:hover {
+  color: #FF00FF;
+}
+.pseudo-class a:active {
+  color: #0000FF;
+}
+
+.pseudo-elements{
+    padding: 4px;
+}
+.pseudo-elements p::before{
+    content:"\27A1" ;
+    margin-right: 5px;
+}
+.pseudo-elements p::after{
+    content: "\2B05";
+    margin-left: 5px;
+}
+footer{
+    /* position: fixed; */
+    bottom: 0;
+    
+    /* padding: 1px; */
+    text-align: center;
+    background-color: grey;
+}
