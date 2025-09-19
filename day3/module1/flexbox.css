@@ -1,0 +1,66 @@
+header >h1{
+    text-align: center;
+    background-color: gray;
+    padding: 10;
+    width: 100%;
+}
+header >nav{
+    background-color: black;
+    padding: 10;
+    width: 100%;
+}
+nav ul{
+    
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    padding-left: 5;
+    padding-right: 5;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    background-color:gray ;
+    width: 100%;
+    text-align: center;
+}
+.container{
+    /* display: flex;
+    flex-direction: column; */
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+    /* grid-template-columns: auto auto; */
+    padding: 30px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.flex-items{
+    background-color: greenyellow;
+    color: white;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 100;
+    
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
