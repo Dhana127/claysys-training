@@ -1,0 +1,349 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investo</title>
+    <link rel="stylesheet" href="./investo.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="side-navbar">
+            <h1>Investo</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <div class=" navbar-1 navbar-hover-1">
+                            <img class="img-all-hw" src="https://img.icons8.com/?size=100&id=DWoy3TEk8Ge3&format=png&color=000000"
+                                alt="logo">
+                            <a href="#">Dashboard</a>
+                        </div><!-- .navbar-1 .navbar-hover-1-->
+                    </li>
+                    <li>
+                        <div class="navbar-1 navbar-hover-2">
+                            <img class="img-all-hw" src="https://img.icons8.com/?size=100&id=fykAXztKR0CT&format=png&color=000000"
+                                alt="logo">
+                            <a href="#">Inventory</a>
+                        </div><!-- .navbar-1 .navbar-hover-2-->
+                    </li>
+                    <li>
+                        <div class="navbar-1 navbar-hover-3">
+                            <img class="img-all-hw" src="https://img.icons8.com/?size=100&id=vKNsoJvXmTUE&format=png&color=000000"
+                                alt="logo">
+                            <a href="#">Tracking</a>
+                        </div><!-- .navbar-1 .navbar-hover-3-->
+                    </li>
+                    <li>
+                        <div class="navbar-1 navbar-hover-4" id="navbar-active-hover">
+                            <img class="img-all-hw" src="https://img.icons8.com/?size=100&id=21823&format=png&color=000000" alt="logo">
+                            <a href="#">Orders</a>
+                        </div><!-- .navbar-1 .navbar-hover-4-->
+                    </li>
+                    <li>
+                        <div class="navbar-1 navbar-hover-5">
+                            <img class="img-all-hw" src="https://img.icons8.com/?size=100&id=118362&format=png&color=000000" alt="logo">
+                            <a href="#">Report Analytics</a>
+                        </div><!-- .navbar-1 .navbar-hover-5-->
+                    </li>
+                    <li>
+                        <div class="navbar-1 navbar-hover-6">
+                            <img class="img-all-hw" src="https://img.icons8.com/?size=100&id=69&format=png&color=000000" alt="logo">
+                            <a href="#">User Authentication</a>
+                        </div><!-- .navbar-1 .navbar-hover-6-->
+                    </li>
+                    <li>
+                        <div class="navbar-1 navbar-hover-7">
+                            <img class="img-all-hw"
+                                src="https://img.icons8.com/?size=100&id=14099&format=png&color=000000" alt="logo">
+                            <a href="#">Setting</a>
+                        </div><!-- .navbar-1 .navbar-hover-7-->
+                    </li>
+                </ul>
+            </nav>
+
+        </div><!-- .side-navbar -->
+
+        <div class="display-area">
+            <div class="inside-display-area">
+                <div class="merge-content-gap">
+                    <div class="content-display-area">
+                        <h3>Order</h3>
+                        <div class="left-display-area">
+                            <label for="select-store">
+                                <input type="text" class="input-options" list="browsers" name="browser" id="select-store-1">
+                                <label for="browser" id="select-store-1"></label>
+                                <datalist id="browsers">
+                                    <option value="Bavaa Shop">
+                                    <option value="The Chennai Mobiles">
+                                    <option value="Apple">
+                                    <option value="Redmi">
+                                    <option value="Zudio">
+                                </datalist>
+                            </label>
+                            <div class="notification">
+                                <img class="img-all-hw" src="https://img.icons8.com/?size=100&id=0qxdKWVkmxjy&format=png&color=228BE6"
+                                    alt="logo">
+                            </div><!-- .notification -->
+                            <div class="profile-pic">
+                                <img class="img-all-hw" src="https://img.icons8.com/?size=100&id=11730&format=png&color=000000" alt="logo">
+                            </div><!-- .profile-pic -->
+                        </div><!-- .left-display-area -->
+
+                    </div><!-- .content-display-area -->
+                    <div class="path-div">
+                        <p><span>Home /</span> Order</p>
+                    </div><!-- .path-div -->
+                </div><!--.merge-content-gap-->
+                <div class="order-summary">
+                    <div class="summary-heading">
+                        <h2>Order Summary</h2>
+                    </div>
+                    <div class="add-product">
+                        <label>Add Product</label>
+                    </div><!-- .add-product -->
+                </div><!-- .order-summary -->
+                <div class="flex-container">
+                    <div class="display-order">
+                        <p>Total Order</p>
+                        <div class="order-datas">
+                            <div class="order-datas-f">Total 560</div>
+                            <div class="right-side">Last Week</div>
+                        </div>
+                    </div><!-- .display-order  -->
+                    <div class="display-order-2">
+                        <p>Completed Order</p>
+                        <div class="order-datas">
+                            <div class="order-datas-f">Total 400</div>
+                            <div class="right-side"> Last Week</div>
+                        </div>
+                    </div><!-- .display-order-2  -->
+                    <div class="display-order-3">
+                        <p>In Process Order</p>
+                        <div class="order-datas">
+                            <div class="order-datas-f">Total 160</div>
+                            <div class="right-side"> Last Week</div>
+                        </div>
+                    </div><!-- .display-order-3  -->
+                    
+                </div><!-- .flex-container -->
+                <div class="display-order-items">
+                    <div class="order-items-head">
+                        <div class="head-display-order-items order-items-head">
+                            <h3>Order Items</h3>
+
+                            <div class="nav-display-order-items">
+                                <div class="nav-order-items">
+                                    <form class="search-bar">
+                                        <input type="search" id="search-bar" placeholder="Search">
+                                    </form>
+                                </div>
+                                <div class="right-nav-order-items">
+                                    <div class="filter">
+                                        <input type="checkbox" id="filter-toggle" class="dropdown-toggle" />
+                                        <label for="filter-toggle" class="filter-button">
+                                            Filter</label>
+                                        <ul class="options-list">
+                                            <li><a href="#">status Delivered</a></li>
+                                            <li><a href="#">status Pending</a></li>
+                                            <li><a href="#">status Shipped</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="date-outer">
+                                    <div class="date">
+                                
+                                        <label class="date-input-label">
+                                            Date
+                                        </label>
+                                    </div>
+                                    </div>
+                                    <div class="export-outer">
+                                    <div class=" export">
+                                        <label>Export</label>
+                                    </div>
+                                    </div>
+                                </div>
+
+                            </div><!-- .nav-display-order-items  -->
+                        </div><!-- .head-display-order-items  -->
+                        <div class="table-order-list">
+                            <div class="table-container">
+                                <table class="order-table">
+                                    <thead>
+                                        <tr id="table-row-head">
+                                            <th><input type="checkbox" id="select-all"></th>
+                                            <th>Order</th>
+                                            <th>Customers</th>
+                                            <th>Tracking ID</th>
+                                            <th>Order Date</th>
+                                            <th>Quantity</th>
+                                            <th>Location</th>
+                                            <th>Total</th>
+                                            <th>Status</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="checkbox" id="select-all"></td>
+                                            <td>#12345</td>
+                                            <td>John Doe</td>
+                                            <td>TRK987654321</td>
+                                            <td>Sep 23, 2025</td>
+                                            <td>2</td>
+                                            <td>New York, NY</td>
+                                            <td>$149.99</td>
+                                            <td><span class="status-pending">&bull; Pending</span></td>
+                                            <td>
+                                                <button class="action-btn">
+                                                    &#8230;
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" id="select-all"></td>
+                                            <td>#12344</td>
+                                            <td>Jane Smith</td>
+                                            <td>TRK123456789</td>
+                                            <td>Sep 22, 2025</td>
+                                            <td>1</td>
+                                            <td>Los Angeles, CA</td>
+                                            <td>$75.00</td>
+                                            <td><span class="status-shipped">&bull; Shipped</span></td>
+                                            <td>
+                                                <button class="action-btn">
+                                                    &#8230;
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" id="select-all"></td>
+                                            <td>#12343</td>
+                                            <td>Alice Johnson</td>
+                                            <td>TRK246813579</td>
+                                            <td>Sep 21, 2025</td>
+                                            <td>3</td>
+                                            <td>Chicago, IL</td>
+                                            <td>$225.50</td>
+                                            <td><span class="status-delivered">&bull; Delivered</span></td>
+                                            <td>
+                                                <button class="action-btn">
+                                                    &#8230;
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" id="select-all"></td>
+                                            <td>#12345</td>
+                                            <td>John Doe</td>
+                                            <td>TRK987654321</td>
+                                            <td>Sep 23, 2025</td>
+                                            <td>2</td>
+                                            <td>New York, NY</td>
+                                            <td>$149.99</td>
+                                            <td><span class="status-pending">&bull; Pending</span></td>
+                                            <td>
+                                                <button class="action-btn">
+                                                    &#8230;
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" id="select-all"></td>
+                                            <td>#12344</td>
+                                            <td>Jane Smith</td>
+                                            <td>TRK123456789</td>
+                                            <td>Sep 22, 2025</td>
+                                            <td>1</td>
+                                            <td>Los Angeles, CA</td>
+                                            <td>$75.00</td>
+                                            <td><span class="status-shipped">&bull; Shipped</span></td>
+                                            <td>
+                                                <button class="action-btn">
+                                                    &#8230;
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" id="select-all"></td>
+                                            <td>#12343</td>
+                                            <td>Alice Johnson</td>
+                                            <td>TRK246813579</td>
+                                            <td>Sep 21, 2025</td>
+                                            <td>3</td>
+                                            <td>Chicago, IL</td>
+                                            <td>$225.50</td>
+                                            <td><span class="status-delivered">&bull; Delivered</span></td>
+                                            <td>
+                                                <button class="action-btn">
+                                                    &#8230;
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" id="select-all"></td>
+                                            <td>#12345</td>
+                                            <td>John Doe</td>
+                                            <td>TRK987654321</td>
+                                            <td>Sep 23, 2025</td>
+                                            <td>2</td>
+                                            <td>New York, NY</td>
+                                            <td>$149.99</td>
+                                            <td><span class="status-pending">&bull; Pending</span></td>
+                                            <td>
+                                                <button class="action-btn">
+                                                    &#8230;
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" id="select-all"></td>
+                                            <td>#12344</td>
+                                            <td>Jane Smith</td>
+                                            <td>TRK123456789</td>
+                                            <td>Sep 22, 2025</td>
+                                            <td>1</td>
+                                            <td>Los Angeles, CA</td>
+                                            <td>$75.00</td>
+                                            <td><span class="status-shipped">&bull; Shipped</span></td>
+                                            <td>
+                                                <button class="action-btn">
+                                                    &#8230;
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" id="select-all"></td>
+                                            <td>#12343</td>
+                                            <td>Alice Johnson</td>
+                                            <td>TRK246813579</td>
+                                            <td>Sep 21, 2025</td>
+                                            <td>3</td>
+                                            <td>Chicago, IL</td>
+                                            <td>$225.50</td>
+                                            <td><span class="status-delivered">&bull; Delivered</span></td>
+                                            <td>
+                                                <button class="action-btn">
+                                                    &#8230;
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table><!-- .order-table -->
+                            </div><!-- .table-container -->
+
+                        </div><!-- .table-order-list -->
+                    </div><!--.order-items-head-->
+                    <!-- </div>.head-display-order-items  -->
+                </div><!-- .display-order-items  -->
+            </div><!-- .inside-display-area -->
+
+        </div><!-- .display-area -->
+
+
+    </div><!-- .grid-container -->
+
+
+</body>
+
+</html>
