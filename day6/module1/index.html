@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI calculator</title>
+    <link rel="stylesheet" href="./si-calculator.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="input-div">
+                <h1>Advanced Simple Interest Calculator</h1>
+                <p>Principal Amount:</p>
+                <input type="number" name="amount" id="amount-id" value="amount-id">
+                <p>Rate of Interest (%):</p>
+                <input type="number" name="interest" id="interest-id">
+                <p>Time (Years):</p>
+                <input type="number" name="numbers" id="years-id">
+                <br>
+                <br>
+                <Button id="button-id">Calculate Interest</Button>
+            </div><!-- .input-div -->
+            <div class="output-div">
+                <h3>Interest: </h3>
+                <p id="output-interest"> </p>
+                <h3>Total Amount: </h3>
+                <p id="output-totalamount"> </p>
+                <h3>Additional Information: </h3>
+                <p id="output-info"> </p>
+            </div><!-- .output-div -->
+        </div><!-- .calculator -->
+    </div><!-- .container -->
+</body>
+<script src="./si-calculator.js"></script>
+</html>

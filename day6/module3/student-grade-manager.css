@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    border: 1px solid skyblue;
+    padding: 4px;
+}
+.container2{
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+}
+#stu-add,#display-grade,#calculate-avg{
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+    padding: 15px;
+}
+#stu-add:hover,#display-grade:hover,#calculate-avg:hover{
+    background-color: rgb(5, 130, 255);
+}
+.list-stu-grade{
+    display: block;
+    text-align: start;
+}
+input{
+    padding: 15px;
+    width: 300px;
+}

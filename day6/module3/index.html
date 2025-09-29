@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Manager</title>
+    <link rel="stylesheet" href="./student-grade-manager.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="container2">
+            <h1>Student Grade Manager</h1>
+            <p>Student Name:</p>
+            <input type="text" name="stu-name" id="stu-name" placeholder="Enter your name">
+            <p>Grade:</p>
+            <input type="number" name="stu-grade" id="stu-grade" placeholder="Enter your grade">
+            <br>
+            <br>
+            <button type="button" id="stu-add">Add Student</button>
+            <br>
+            <br>
+            <button type="button" id="display-grade">Display Grade</button>
+            <h1 class="list-stu-grade">Grade List:</h1>
+            <div class="list-stu-grade" id="list-stu-grade"></div>
+            <button type="button" id="calculate-avg">Calculate Average Grade</button>
+            <h3>Average Grade:</h3>
+            <div class="avg-grade" id="avg-grade"></div>
+        </div>
+    </div>
+    
+</body>
+<script src="./student-grade-manager.js"></script>
+</html>

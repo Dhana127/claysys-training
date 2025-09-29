@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 1px skyblue solid;
+    padding: 5px;
+
+}
+
+.calculator {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    outline: none;
+    border: 1px solid #28a745;
+    border: 0.5rem;
+    padding: 0.5rem;
+}
