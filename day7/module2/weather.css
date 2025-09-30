@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container1{
+    border: 1px solid skyblue;
+    padding: 4px;
+}
+.container2{
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+}
+.heading{
+    padding-left: 0;
+    margin-left: 0;
+    text-align: start;
+}
+input{
+    width: 300px;
+    padding: 10px;
+}
+#search-btn-id{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    border: dodgerblue;
+}
+#search-btn-id:hover{
+    background-color: rgb(82, 144, 205);
+}
