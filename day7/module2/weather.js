@@ -6,6 +6,7 @@ function getWeatherData() {
         .then(response => response.json())
         .then(data => {
             const weather = document.getElementById("weather-details");
+            weather.innerHTML="";
             const row1 = document.createElement("div");
             row1.style.display = "flex";
             row1.style.justifyContent = "space-between";
@@ -83,5 +84,6 @@ function getWeatherData() {
         .catch(
             error => console.error(error)
         )
+
 
 }
