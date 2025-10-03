@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="container2">
+            <div class="adding-user">
+                <h1>Add User</h1>
+                <hr>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email">
+                <label for="role">Role: </label>
+                <input type="text" name="role" id="role" list="list-role">
+                <datalist id="list-role">
+                    <option value="Admin">Admin</option>
+                    <option value="Manager">Manager</option>
+                    <option value="Team-Lead">Team-Lead</option>
+                    <option value="Developer">Developer</option>
+                </datalist>
+                <button id="add-all">Add User</button>
+            </div><!-- .adding-user -->
+            <div class="display-user">
+                <h1>User List</h1>
+                <hr>
+                <div id="display-lists">
+
+                </div>
+            </div><!-- .display-user -->
+        </div><!-- .container2 -->
+    </div><!-- .container1 -->
+</body>
+<script src="./dist/index.js"></script>
+</html>
