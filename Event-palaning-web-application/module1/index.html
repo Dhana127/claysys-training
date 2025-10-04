@@ -1,0 +1,193 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* Base Styling & Layout */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f7f9;
+        margin: 0;
+      }
+      .dashboard-container {
+        display: flex;
+        min-height: 100vh;
+      }
+      .sidebar {
+        width: 200px;
+        background-color: #3f51b5;
+        color: white;
+        padding: 20px 0;
+      }
+      .main-content {
+        flex-grow: 1;
+        padding: 20px;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      /* Dashboard Specifics */
+      .search-filter-bar {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+      .event-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+      .event-card {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        transition: transform 0.2s;
+      }
+      .event-card:hover {
+        transform: translateY(-5px);
+      }
+      .status-badge {
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-size: 0.8em;
+        font-weight: bold;
+      }
+      .status-planning {
+        background-color: #ffeb3b;
+        color: #333;
+      }
+      .status-finalized {
+        background-color: #4caf50;
+        color: white;
+      }
+      .fab {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background-color: #f44336;
+        color: white;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 24px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        display: none; /* Hidden on desktop */
+        cursor: pointer;
+      }
+
+      /* Mobile Adjustments */
+      @media (max-width: 768px) {
+        .sidebar {
+          display: none;
+        }
+        .header .add-event-btn {
+          display: none;
+        } /* Hide desktop button */
+        .fab {
+          display: block;
+        } /* Show mobile FAB */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <div class="sidebar">
+        <h3 style="padding: 0 20px">EventApp</h3>
+        <nav>
+          <a
+            href="#"
+            style="
+              display: block;
+              padding: 10px 20px;
+              background-color: #5c6bc0;
+            "
+            >Dashboard</a
+          >
+          <a href="#" style="display: block; padding: 10px 20px">Profile</a>
+          <a href="#" style="display: block; padding: 10px 20px">Settings</a>
+        </nav>
+      </div>
+
+      <div class="main-content">
+        <div class="header">
+          <h1>Event Dashboard</h1>
+          <button
+            class="add-event-btn"
+            style="
+              background-color: #f44336;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            "
+          >
+            + Add Event
+          </button>
+        </div>
+
+        <div class="search-filter-bar">
+          <input
+            type="text"
+            placeholder="Search events by name or keyword..."
+            style="
+              flex-grow: 1;
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            "
+          />
+          <select
+            style="padding: 8px; border: 1px solid #ccc; border-radius: 4px"
+          >
+            <option>Filter by Date</option>
+          </select>
+          <select
+            style="padding: 8px; border: 1px solid #ccc; border-radius: 4px"
+          >
+            <option>Filter by Category</option>
+          </select>
+        </div>
+
+        <div class="event-grid">
+          <div class="event-card">
+            <span class="status-badge status-finalized">Finalized</span>
+            <h3 style="margin-top: 10px">Annual Tech Conference 2025</h3>
+            <p>Date & Time: 20/12/2025 at 10:00 AM</p>
+            <p style="font-size: 0.9em; color: #555">
+              Industry leaders discussing future tech trends.
+            </p>
+            <div style="margin-top: 15px; display: flex; gap: 10px">
+              <button>View Details</button>
+              <button>Manage Guests</button>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <span class="status-badge status-planning">Planning</span>
+            <h3 style="margin-top: 10px">Company Holiday Party</h3>
+            <p>Date & Time: 15/12/2025 at 7:00 PM</p>
+            <p style="font-size: 0.9em; color: #555">
+              Casual gathering for employees and staff.
+            </p>
+            <div style="margin-top: 15px; display: flex; gap: 10px">
+              <button>View Details</button>
+              <button>Edit Event</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="fab">++++++++++++++++++++++++</div>
+      </div>
+    </div>
+  </body>
+</html>

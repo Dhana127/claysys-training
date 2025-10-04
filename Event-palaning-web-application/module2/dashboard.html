@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Dashboard</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="sidebar">
+            <img width="125" loading="lazy" alt="Eventify Logo"
+                src="https://cdn.prod.website-files.com/61cee5eb4d566d3471eca114/61d2ccc8ef42088439e7235a_Eventify%20Logo.svg">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="hover-items1"><a href="#">User Dashboard</a></div>
+                    </li>
+                    <li>
+                        <div class="hover-items2"><a href="#">Create Events</a></div>
+                    </li>
+                    <li>
+                        <div class="hover-items3"><a href="#">Manage Guest</a></div>
+                    </li>
+                    <li>
+                        <div class="hover-items4"><a href="#">Event Agenda</a></div>
+                    </li>
+                    <li>
+                        <div class="hover-items5"><a href="#">Settings</a></div>
+                    </li>
+                </ul>
+            </nav>
+        </div><!-- .sidebar -->
+        <div class="main-display">
+            <div class="dashboard-tittle">
+                <h1>Event Dashboard</h1>
+                <button class="dashboard-event-addbtn" type="button">Add Event</button>
+            </div><!-- .dashboard-tittle -->
+            <div class="search-filter-bar">
+                <input type="text" placeholder="Search events by name or keyword..." style="
+              flex-grow: 1;
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            " />
+                <select style="padding: 8px; border: 1px solid #ccc; border-radius: 4px">
+                    <option>Filter by Date</option>
+                </select>
+                <select style="padding: 8px; border: 1px solid #ccc; border-radius: 4px">
+                    <option>Filter by Category</option>
+                </select>
+            </div><!--.search-filter-bar-->
+
+            <div class="event-grid">
+                <div class="event-card">
+                    <span class="status-badge status-finalized">Finalized</span>
+                    <h3 style="margin-top: 10px">Annual Tech Conference 2025</h3>
+                    <p>Date & Time: 20/12/2025 at 10:00 AM</p>
+                    <p style="font-size: 0.9em; color: #555">
+                        Industry leaders discussing future tech trends.
+                    </p>
+                    <div style="margin-top: 15px; display: flex; gap: 10px">
+                        <button>View Details</button>
+                        <button>Manage Guests</button>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <span class="status-badge status-planning">Planning</span>
+                    <h3 style="margin-top: 10px">Company Holiday Party</h3>
+                    <p>Date & Time: 15/12/2025 at 7:00 PM</p>
+                    <p style="font-size: 0.9em; color: #555">
+                        Casual gathering for employees and staff.
+                    </p>
+                    <div style="margin-top: 15px; display: flex; gap: 10px">
+                        <button>View Details</button>
+                        <button>Edit Event</button>
+                    </div>
+                </div>
+            </div><!--.event-grid-->
+
+        </div><!-- .main-display -->
+    </div><!-- .grid-container -->
+
+</body>
+
+</html>
