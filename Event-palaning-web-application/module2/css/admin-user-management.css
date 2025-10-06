@@ -1,0 +1,99 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 1px;
+    row-gap: 1px;
+}
+
+.sidebar {
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar a {
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    column-gap: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.hover-items1 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items1 {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items2 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items2:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items3 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items3:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items4 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items4:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items5 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items5:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items1> a {
+    color: white;
+}
+
+.hover-items2:hover a {
+    color: white;
+}
+
+.hover-items3:hover a {
+    color: white;
+}
+
+.hover-items4:hover a {
+    color: white;
+}
+
+.hover-items5:hover a {
+    color: white;
+}
+
+/* Sidebar over */
+
+/* main display */

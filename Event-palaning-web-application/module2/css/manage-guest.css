@@ -1,0 +1,273 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 1px;
+    row-gap: 1px;
+}
+
+.sidebar {
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar a {
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    column-gap: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.hover-items1 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items1:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items2 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items2:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items3 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items3 {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items4 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items4:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items5 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items5:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items1:hover a {
+    color: white;
+}
+
+.hover-items2:hover a {
+    color: white;
+}
+
+.hover-items3> a {
+    color: white;
+}
+
+.hover-items4:hover a {
+    color: white;
+}
+
+.hover-items5:hover a {
+    color: white;
+}
+
+/* Sidebar over */
+
+/* main display */
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+/* .summary {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 20px;
+} */
+
+.add-guest-section, .guest-list-section {
+    margin-bottom: 30px;
+}
+
+#add-guest-form {
+    display: flex;
+    gap: 10px;
+}
+
+#add-guest-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#add-guest-form button, .controls button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-guest-form button:hover, .controls button:hover {
+    background-color: #0056b3;
+}
+
+.controls {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#guest-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#guest-table th, #guest-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#guest-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+#guest-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.status-yes {
+    color: green;
+    font-weight: bold;
+}
+.status-no {
+    color: red;
+    font-weight: bold;
+}
+.status-maybe {
+    color: orange;
+    font-weight: bold;
+}
+
+.action-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* media for tab */
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: 25% 75%;
+  }
+
+  #add-guest-form {
+    flex-direction: column;
+  }
+
+  #add-guest-form input,
+  #add-guest-form button {
+    width: 100%;
+  }
+
+  .controls {
+    text-align: center;
+  }
+}
+
+/* media for mobile */
+@media (max-width: 768px) {
+  .grid-container {
+    display: block;
+  }
+
+  .sidebar {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .sidebar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebar a {
+    margin: 10px 0;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  #add-guest-form {
+    flex-direction: column;
+  }
+
+  #add-guest-form input,
+  #add-guest-form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .controls {
+    text-align: center;
+  }
+
+  #guest-table th,
+  #guest-table td {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .action-buttons button {
+    font-size: 0.7em;
+    padding: 4px 8px;
+  }
+}

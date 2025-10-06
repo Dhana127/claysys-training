@@ -29,7 +29,7 @@
     padding: 10px;
 }
 
-.hover-items1:hover {
+.hover-items1 {
     background-color: dodgerblue;
     color: white;
 }
@@ -74,7 +74,7 @@
     color: white;
 }
 
-.hover-items1:hover a {
+.hover-items1> a {
     color: white;
 }
 
@@ -109,6 +109,10 @@
     background-color: dodgerblue;
     color: white;
     border: 1px solid transparent;
+}
+.dashboard-event-addbtn>a{
+    color:white;
+    text-decoration: none;
 }
 
 .dashboard-event-addbtn:hover {
@@ -154,4 +158,17 @@
 .status-finalized {
     background-color: #4caf50;
     color: white;
+}
+@media (max-width: 768px) {
+  
+  .grid-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .search-filter-bar{
+    flex-direction: column;
+  }
+  .dashboard-tittle{
+    flex-direction: column;
+  }
 }

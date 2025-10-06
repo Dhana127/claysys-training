@@ -4,6 +4,8 @@ body{
     align-items: center;
     background-color: white;
     font-family: sans-serif;
+    justify-content: center;
+    height: 100vh;
 }
 .container1{
     padding: 4px;

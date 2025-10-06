@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda of The Event</title>
+    <link rel="stylesheet" href="./css/event-agenda.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="sidebar">
+            <img width="125" loading="lazy" alt="Eventify Logo"
+                src="https://cdn.prod.website-files.com/61cee5eb4d566d3471eca114/61d2ccc8ef42088439e7235a_Eventify%20Logo.svg">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="hover-items1"><a href="./dashboard.html">User Dashboard</a></div>
+                    </li>
+                    <li>
+                        <div class="hover-items2"><a href="./create-event.html">Create Events</a></div>
+                    </li>
+                    <li>
+                        <div class="hover-items3"><a href="./manage-guest.html">Manage Guest</a></div>
+                    </li>
+                    <li>
+                        <div class="hover-items4"><a href="./event-agenda.html">Event Agenda</a></div>
+                    </li>
+                    <li>
+                        <div class="hover-items5"><a href="#">Settings</a></div>
+                    </li>
+                </ul>
+            </nav>
+        </div><!-- .sidebar -->
+        <div class="main-display">
+
+            <div class="container">
+                <h1>Event Agenda</h1>
+
+                <!-- Add Agenda Item Form -->
+                <form id="agendaForm" class="agenda-form">
+                    <input type="time" id="startTime" required>
+                    <input type="time" id="endTime" required>
+                    <input type="text" id="description" placeholder="Description" required>
+                    <button type="submit" class="add-btn">Add Agenda Item</button>
+                </form>
+
+                <!-- Agenda List -->
+                <table id="agendaTable">
+                    <thead>
+                        <tr>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                            <th>Description</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="agendaBody">
+                        <!-- Items will be injected here -->
+                    </tbody>
+                </table>
+            </div>
+
+        </div><!-- .main-display -->
+    </div><!-- .grid-container -->
+
+</body>
+<script src="./dist/event-agenda.js"></script>
+</html>

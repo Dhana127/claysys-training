@@ -15,16 +15,16 @@
             <nav>
                 <ul>
                     <li>
-                        <div class="hover-items1"><a href="#">User Dashboard</a></div>
+                        <div class="hover-items1"><a href="./dashboard.html">User Dashboard</a></div>
                     </li>
                     <li>
-                        <div class="hover-items2"><a href="#">Create Events</a></div>
+                        <div class="hover-items2"><a href="./create-event.html">Create Events</a></div>
                     </li>
                     <li>
-                        <div class="hover-items3"><a href="#">Manage Guest</a></div>
+                        <div class="hover-items3"><a href="./manage-guest.html">Manage Guest</a></div>
                     </li>
                     <li>
-                        <div class="hover-items4"><a href="#">Event Agenda</a></div>
+                        <div class="hover-items4"><a href="./event-agenda.html">Event Agenda</a></div>
                     </li>
                     <li>
                         <div class="hover-items5"><a href="#">Settings</a></div>
@@ -37,7 +37,7 @@
                 <h1>Create Event</h1>
             </div><!-- .dashboard-tittle -->
             <div class="form-page-container">
-                
+                <form id="create-event-form">
             
                     <div class="form-group">
                         <label for="event-name">Event Name</label>
@@ -74,13 +74,13 @@
 
                     <div class="form-actions">
                         <button type="button" class="cancel-btn">Cancel</button>
-                        <button type="submit" class="save-btn">Save Event</button>
+                        <button type="submit" class="save-btn" id="save-btn-event">Save Event</button>
                     </div>
-                
+                </form>
             </div>
 
         </div><!-- .main-display -->
     </div><!-- .grid-container -->
 </body>
-
+<script src="./dist/create-event.js"></script>
 </html>
