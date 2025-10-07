@@ -125,6 +125,8 @@
     margin-bottom: 20px;
 }
 
+
+
 .event-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -157,6 +159,10 @@
 
 .status-finalized {
     background-color: #4caf50;
+    color: white;
+}
+.status-canceled{
+    background-color: grey;
     color: white;
 }
 @media (max-width: 768px) {

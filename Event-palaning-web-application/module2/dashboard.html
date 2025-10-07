@@ -44,11 +44,19 @@
               border: 1px solid #ccc;
               border-radius: 4px;
             " />
+                <input type="date" name="date" id="searchdate" style="
+              flex-grow: 1;
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            " >
+
                 <select style="padding: 8px; border: 1px solid #ccc; border-radius: 4px">
-                    <option>Filter by Date</option>
-                </select>
-                <select style="padding: 8px; border: 1px solid #ccc; border-radius: 4px">
-                    <option>Filter by Category</option>
+                    <option value="" disabled selected>Select a Category</option>
+                    <option value="conference">Conference</option>
+                    <option value="wedding">Wedding</option>
+                    <option value="birthday">Birthday Party</option>
+                    <option value="corporate">Corporate</option>
                 </select>
             </div><!--.search-filter-bar-->
 
