@@ -9,17 +9,20 @@ if (createEventForm) {
     e.preventDefault(); 
     // Grab input values
     const nameInput = document.getElementById('event-name').value;
-    const datetimeInput = document.getElementById('event-datetime').value;
+    const dateInput = document.getElementById('event-date').value;
+    const timeInput = document.getElementById('event-time').value;
     const locationInput = document.getElementById('event-location').value;
     const categorySelect = document.getElementById('event-category').value;
     const descriptionTextarea = document.getElementById('event-description').value;
-
+    const status='planning';
     const eventData = {
       name: nameInput,
-      datetime: datetimeInput,
+      date: dateInput,
+      time: timeInput,
       location: locationInput,
       category: categorySelect,
-      description: descriptionTextarea
+      description: descriptionTextarea,
+      status:status
     };
 
     // Load existing events or create new array

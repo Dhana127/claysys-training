@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Array to store guest data in memory
-    let guests = [
+    // Load guests from localStorage or use default
+    let guests = JSON.parse(localStorage.getItem('guests')) || [
         { name: 'Alice Smith', email: 'alice@example.com', rsvp_status: 'Not Replied' },
         { name: 'Bob Johnson', email: 'bob@example.com', rsvp_status: 'Yes' },
         { name: 'Charlie Brown', email: 'charlie@example.com', rsvp_status: 'No' }
@@ -8,10 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const form = document.getElementById('add-guest-form');
     const guestTableBody = document.getElementById('guest-table-body');
-    const totalGuestsSpan = document.getElementById('total-guests');
-    const attendingCountSpan = document.getElementById('attending-count');
-    const notAttendingCountSpan = document.getElementById('not-attending-count');
     const sendInvitesBtn = document.getElementById('send-invites-btn');
+
+    // Save guests to localStorage
+    const saveGuests = () => {
+        localStorage.setItem('guests', JSON.stringify(guests));
+    };
 
     // Function to render the guest list table
     const renderGuestList = () => {
@@ -36,15 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
             guestTableBody.appendChild(row);
         });
 
-        updateSummary();
+        saveGuests();
     };
 
-    // Function to update the summary counts
-    const updateSummary = () => {
-        totalGuestsSpan.textContent = guests.length;
-        attendingCountSpan.textContent = guests.filter(g => g.rsvp_status === 'Yes').length;
-        notAttendingCountSpan.textContent = guests.filter(g => g.rsvp_status === 'No').length;
-    };
 
     // Handle adding a new guest
     form.addEventListener('submit', (e) => {
@@ -59,14 +55,13 @@ document.addEventListener('DOMContentLoaded', () => {
         };
         guests.push(newGuest);
         
-        // Clear form inputs
         nameInput.value = '';
         emailInput.value = '';
 
         renderGuestList();
     });
 
-    // Handle deleting a guest or updating RSVP status
+    // Handle deleting a guest
     guestTableBody.addEventListener('click', (e) => {
         if (e.target.classList.contains('delete-btn')) {
             const index = e.target.dataset.index;
@@ -74,7 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
             renderGuestList();
         }
     });
-    
+
+    // Handle RSVP status change
     guestTableBody.addEventListener('change', (e) => {
         if (e.target.classList.contains('rsvp-select')) {
             const index = e.target.dataset.index;
@@ -84,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Handle the "Send Invitations" button (simulated)
+    // Simulate sending invitations
     sendInvitesBtn.addEventListener('click', () => {
         alert('Simulating: Invitations have been sent to all guests with "Not Replied" status.');
     });

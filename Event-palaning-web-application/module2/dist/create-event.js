@@ -7,16 +7,20 @@ if (createEventForm) {
         e.preventDefault();
         // Grab input values
         var nameInput = document.getElementById('event-name').value;
-        var datetimeInput = document.getElementById('event-datetime').value;
+        var dateInput = document.getElementById('event-date').value;
+        var timeInput = document.getElementById('event-time').value;
         var locationInput = document.getElementById('event-location').value;
         var categorySelect = document.getElementById('event-category').value;
         var descriptionTextarea = document.getElementById('event-description').value;
+        var status = 'planning';
         var eventData = {
             name: nameInput,
-            datetime: datetimeInput,
+            date: dateInput,
+            time: timeInput,
             location: locationInput,
             category: categorySelect,
-            description: descriptionTextarea
+            description: descriptionTextarea,
+            status: status
         };
         // Load existing events or create new array
         var events = JSON.parse(localStorage.getItem('events') || '[]');

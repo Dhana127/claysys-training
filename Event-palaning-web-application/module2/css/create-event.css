@@ -123,7 +123,8 @@
 }
 
 .form-group input[type="text"],
-.form-group input[type="datetime-local"],
+.form-group input[type="date"],
+.form-group input[type="time"],
 .form-group select,
 .form-group textarea {
     width: 100%;
@@ -147,7 +148,7 @@
 }
 
 .save-btn {
-    background-color: #4caf50;
+    background-color:dodgerblue;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -156,7 +157,7 @@
     font-weight: bold;
 }
 .save-btn:hover{
-    background-color: #53d357;
+    background-color: rgb(5, 124, 243);
 }
 
 .cancel-btn {
