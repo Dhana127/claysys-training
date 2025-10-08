@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Dashboard</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="sidebar">
+            <img width="125" loading="lazy" alt="Eventify Logo"
+                src="https://cdn.prod.website-files.com/61cee5eb4d566d3471eca114/61d2ccc8ef42088439e7235a_Eventify%20Logo.svg">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./dashboard.html"><div class="navbar-1 hover-items1"><img src="https://img.icons8.com/?size=100&id=F28yEPaIjm4o&format=png&color=000000" alt="">User Dashboard</div></a>
+                    </li>
+                    <li>
+                        <a href="./create-event.html"><div class="navbar-1 hover-items2"><img src="https://img.icons8.com/?size=100&id=P8gqXD8iZeI0&format=png&color=000000" alt="">Create Events</div></a>
+                    </li>
+                    <li>
+                        <a href="./manage-guest.html"><div class="navbar-1 hover-items3"><img src="https://img.icons8.com/?size=100&id=5491&format=png&color=000000" alt="">Manage Guest</div></a>
+                    </li>
+                    <li>
+                        <a href="./event-agenda.html"><div class="navbar-1 hover-items4"><img src="https://img.icons8.com/?size=100&id=0d13KsAtkEat&format=png&color=000000" alt="">Event Agenda</div></a>
+                    </li>
+                    <li>
+                        <a href="./settings.html"><div class="navbar-1 hover-items5"><img src="https://img.icons8.com/?size=100&id=364&format=png&color=000000" alt="">Settings</div></a>
+                    </li>
+                </ul>
+            </nav>
+        </div><!-- .sidebar -->
+        <div class="main-display">
+            <div class="dashboard-tittle">
+                <h1>Event Dashboard</h1>
+                <button class="dashboard-event-addbtn" type="button"><a href="./create-event.html">Add Event</a></button>
+            </div><!-- .dashboard-tittle -->
+            <div class="search-filter-bar">
+                <input type="text" placeholder="Search events by name or keyword..." style="
+              flex-grow: 1;
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            " />
+                <input type="date" name="date" id="searchdate" style="
+              flex-grow: 1;
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            " >
+
+                <select style="padding: 8px; border: 1px solid #ccc; border-radius: 4px">
+                    <option value="" disabled selected>Select a Category</option>
+                    <option value="conference">Conference</option>
+                    <option value="wedding">Wedding</option>
+                    <option value="birthday">Birthday Party</option>
+                    <option value="corporate">Corporate</option>
+                </select>
+            </div><!--.search-filter-bar-->
+
+            <div class="event-grid">
+                
+            </div><!--.event-grid-->
+
+        </div><!-- .main-display -->
+    </div><!-- .grid-container -->
+
+</body>
+<script src="./dist/dashboard.js"></script>
+</html>

@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="./css/admin-user-management.css">
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="sidebar">
+            <img width="125" loading="lazy" alt="Eventify Logo"
+                src="https://cdn.prod.website-files.com/61cee5eb4d566d3471eca114/61d2ccc8ef42088439e7235a_Eventify%20Logo.svg">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./admin-user-management.html"><div class="navbar-1 hover-items1"><img src="https://img.icons8.com/?size=100&id=F28yEPaIjm4o&format=png&color=000000" alt="">User Management</div></a>
+                    </li>
+                    <li>
+                        <a href="./admin-manage-categories.html"><div class="navbar-1 hover-items2"><img src="https://img.icons8.com/?size=100&id=66014&format=png&color=000000" alt="">Manage Event Categories</div></a>
+                    </li>
+                    <li>
+                        <a href="./admin-backup-restore.html"><div class="navbar-1 hover-items3"><img src="https://img.icons8.com/?size=100&id=43340&format=png&color=000000" alt="">Backup and Restore Data</div></a>
+                    </li>
+                    <li>
+                        <a href="./settings.html"><div class="navbar-1 hover-items5"><img src="https://img.icons8.com/?size=100&id=364&format=png&color=000000" alt="">Settings</div></a>
+                    </li>
+                </ul>
+            </nav>
+        </div><!-- .sidebar -->
+        <div class="main-display">
+            <div class="admin-section">
+                <h2>User Management</h2>
+                <form id="add-user-form">
+                    <input type="text" id="username" placeholder="Username" required />
+                    <input type="email" id="email" placeholder="Email" required />
+                    <input type="password" id="password" placeholder="Password" required />
+                    <select id="role" required>
+                        <option value="" disabled selected>Select Role</option>
+                        <option value="user">User</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                    <button type="submit">Add User</button>
+                </form>
+
+                <table id="user-table">
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="user-table-body">
+                        <!-- Users will be listed here -->
+                    </tbody>
+                </table>
+            </div><!--.admin-section-->
+
+
+        </div><!-- .main-display -->
+    </div><!-- .grid-container -->
+</body>
+<script src="./dist/admin-user-management.js"></script>
+</html>
