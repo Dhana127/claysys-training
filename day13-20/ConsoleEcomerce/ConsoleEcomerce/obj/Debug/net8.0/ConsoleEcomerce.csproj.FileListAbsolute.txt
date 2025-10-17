@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\bin\Debug\net8.0\ConsoleEcomerce.exe
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\bin\Debug\net8.0\ConsoleEcomerce.deps.json
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\bin\Debug\net8.0\ConsoleEcomerce.runtimeconfig.json
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\bin\Debug\net8.0\ConsoleEcomerce.dll
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\bin\Debug\net8.0\ConsoleEcomerce.pdb
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\obj\Debug\net8.0\ConsoleEcomerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\obj\Debug\net8.0\ConsoleEcomerce.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\obj\Debug\net8.0\ConsoleEcomerce.AssemblyInfo.cs
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\obj\Debug\net8.0\ConsoleEcomerce.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\obj\Debug\net8.0\ConsoleEcomerce.dll
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\obj\Debug\net8.0\refint\ConsoleEcomerce.dll
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\obj\Debug\net8.0\ConsoleEcomerce.pdb
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\obj\Debug\net8.0\ConsoleEcomerce.genruntimeconfig.cache
+C:\Users\admin\source\repos\ConsoleEcomerce\ConsoleEcomerce\obj\Debug\net8.0\ref\ConsoleEcomerce.dll

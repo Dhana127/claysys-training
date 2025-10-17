@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\bin\Debug\net8.0\LINQpractice.exe
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\bin\Debug\net8.0\LINQpractice.deps.json
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\bin\Debug\net8.0\LINQpractice.runtimeconfig.json
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\bin\Debug\net8.0\LINQpractice.dll
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\bin\Debug\net8.0\LINQpractice.pdb
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\obj\Debug\net8.0\LINQpractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\obj\Debug\net8.0\LINQpractice.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\obj\Debug\net8.0\LINQpractice.AssemblyInfo.cs
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\obj\Debug\net8.0\LINQpractice.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\obj\Debug\net8.0\LINQpractice.dll
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\obj\Debug\net8.0\refint\LINQpractice.dll
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\obj\Debug\net8.0\LINQpractice.pdb
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\obj\Debug\net8.0\LINQpractice.genruntimeconfig.cache
+C:\Users\admin\source\repos\LINQpractice\LINQpractice\obj\Debug\net8.0\ref\LINQpractice.dll

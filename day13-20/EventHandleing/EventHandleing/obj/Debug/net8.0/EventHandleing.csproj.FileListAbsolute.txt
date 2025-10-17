@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\obj\Debug\net8.0\EventHandleing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\obj\Debug\net8.0\EventHandleing.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\obj\Debug\net8.0\EventHandleing.AssemblyInfo.cs
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\obj\Debug\net8.0\EventHandleing.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\bin\Debug\net8.0\EventHandleing.exe
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\bin\Debug\net8.0\EventHandleing.deps.json
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\bin\Debug\net8.0\EventHandleing.runtimeconfig.json
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\bin\Debug\net8.0\EventHandleing.dll
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\bin\Debug\net8.0\EventHandleing.pdb
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\obj\Debug\net8.0\EventHandleing.dll
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\obj\Debug\net8.0\refint\EventHandleing.dll
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\obj\Debug\net8.0\EventHandleing.pdb
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\obj\Debug\net8.0\EventHandleing.genruntimeconfig.cache
+C:\Users\admin\source\repos\EventHandleing\EventHandleing\obj\Debug\net8.0\ref\EventHandleing.dll

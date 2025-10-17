@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\bin\Debug\net8.0\AbstractClassShape.exe
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\bin\Debug\net8.0\AbstractClassShape.deps.json
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\bin\Debug\net8.0\AbstractClassShape.runtimeconfig.json
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\bin\Debug\net8.0\AbstractClassShape.dll
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\bin\Debug\net8.0\AbstractClassShape.pdb
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\obj\Debug\net8.0\AbstractClassShape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\obj\Debug\net8.0\AbstractClassShape.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\obj\Debug\net8.0\AbstractClassShape.AssemblyInfo.cs
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\obj\Debug\net8.0\AbstractClassShape.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\obj\Debug\net8.0\AbstractClassShape.dll
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\obj\Debug\net8.0\refint\AbstractClassShape.dll
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\obj\Debug\net8.0\AbstractClassShape.pdb
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\obj\Debug\net8.0\AbstractClassShape.genruntimeconfig.cache
+C:\Users\admin\source\repos\AbstractClassShape\AbstractClassShape\obj\Debug\net8.0\ref\AbstractClassShape.dll

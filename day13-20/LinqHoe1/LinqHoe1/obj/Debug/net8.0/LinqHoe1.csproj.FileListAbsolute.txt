@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\bin\Debug\net8.0\LinqHoe1.exe
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\bin\Debug\net8.0\LinqHoe1.deps.json
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\bin\Debug\net8.0\LinqHoe1.runtimeconfig.json
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\bin\Debug\net8.0\LinqHoe1.dll
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\bin\Debug\net8.0\LinqHoe1.pdb
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\obj\Debug\net8.0\LinqHoe1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\obj\Debug\net8.0\LinqHoe1.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\obj\Debug\net8.0\LinqHoe1.AssemblyInfo.cs
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\obj\Debug\net8.0\LinqHoe1.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\obj\Debug\net8.0\LinqHoe1.dll
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\obj\Debug\net8.0\refint\LinqHoe1.dll
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\obj\Debug\net8.0\LinqHoe1.pdb
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\obj\Debug\net8.0\LinqHoe1.genruntimeconfig.cache
+C:\Users\admin\source\repos\LinqHoe1\LinqHoe1\obj\Debug\net8.0\ref\LinqHoe1.dll

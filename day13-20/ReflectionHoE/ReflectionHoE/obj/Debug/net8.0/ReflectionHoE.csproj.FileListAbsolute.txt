@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\bin\Debug\net8.0\ReflectionHoE.exe
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\bin\Debug\net8.0\ReflectionHoE.deps.json
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\bin\Debug\net8.0\ReflectionHoE.runtimeconfig.json
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\bin\Debug\net8.0\ReflectionHoE.dll
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\bin\Debug\net8.0\ReflectionHoE.pdb
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\obj\Debug\net8.0\ReflectionHoE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\obj\Debug\net8.0\ReflectionHoE.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\obj\Debug\net8.0\ReflectionHoE.AssemblyInfo.cs
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\obj\Debug\net8.0\ReflectionHoE.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\obj\Debug\net8.0\ReflectionHoE.dll
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\obj\Debug\net8.0\refint\ReflectionHoE.dll
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\obj\Debug\net8.0\ReflectionHoE.pdb
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\obj\Debug\net8.0\ReflectionHoE.genruntimeconfig.cache
+C:\Users\admin\source\repos\ReflectionHoE\ReflectionHoE\obj\Debug\net8.0\ref\ReflectionHoE.dll

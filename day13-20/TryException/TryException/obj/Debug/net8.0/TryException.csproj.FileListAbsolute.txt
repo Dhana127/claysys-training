@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\TryException\TryException\bin\Debug\net8.0\TryException.exe
+C:\Users\admin\source\repos\TryException\TryException\bin\Debug\net8.0\TryException.deps.json
+C:\Users\admin\source\repos\TryException\TryException\bin\Debug\net8.0\TryException.runtimeconfig.json
+C:\Users\admin\source\repos\TryException\TryException\bin\Debug\net8.0\TryException.dll
+C:\Users\admin\source\repos\TryException\TryException\bin\Debug\net8.0\TryException.pdb
+C:\Users\admin\source\repos\TryException\TryException\obj\Debug\net8.0\TryException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\TryException\TryException\obj\Debug\net8.0\TryException.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\TryException\TryException\obj\Debug\net8.0\TryException.AssemblyInfo.cs
+C:\Users\admin\source\repos\TryException\TryException\obj\Debug\net8.0\TryException.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\TryException\TryException\obj\Debug\net8.0\TryException.dll
+C:\Users\admin\source\repos\TryException\TryException\obj\Debug\net8.0\refint\TryException.dll
+C:\Users\admin\source\repos\TryException\TryException\obj\Debug\net8.0\TryException.pdb
+C:\Users\admin\source\repos\TryException\TryException\obj\Debug\net8.0\TryException.genruntimeconfig.cache
+C:\Users\admin\source\repos\TryException\TryException\obj\Debug\net8.0\ref\TryException.dll

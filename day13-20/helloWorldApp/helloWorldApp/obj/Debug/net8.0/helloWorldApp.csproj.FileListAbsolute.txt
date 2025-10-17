@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\bin\Debug\net8.0\helloWorldApp.exe
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\bin\Debug\net8.0\helloWorldApp.deps.json
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\bin\Debug\net8.0\helloWorldApp.runtimeconfig.json
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\bin\Debug\net8.0\helloWorldApp.dll
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\bin\Debug\net8.0\helloWorldApp.pdb
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\obj\Debug\net8.0\helloWorldApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\obj\Debug\net8.0\helloWorldApp.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\obj\Debug\net8.0\helloWorldApp.AssemblyInfo.cs
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\obj\Debug\net8.0\helloWorldApp.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\obj\Debug\net8.0\helloWorldApp.dll
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\obj\Debug\net8.0\refint\helloWorldApp.dll
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\obj\Debug\net8.0\helloWorldApp.pdb
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\obj\Debug\net8.0\helloWorldApp.genruntimeconfig.cache
+C:\Users\admin\source\repos\helloWorldApp\helloWorldApp\obj\Debug\net8.0\ref\helloWorldApp.dll

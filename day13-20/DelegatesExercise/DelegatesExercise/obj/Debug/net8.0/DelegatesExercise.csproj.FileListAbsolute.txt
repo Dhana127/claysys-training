@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\bin\Debug\net8.0\DelegatesExercise.exe
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\bin\Debug\net8.0\DelegatesExercise.deps.json
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\bin\Debug\net8.0\DelegatesExercise.runtimeconfig.json
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\bin\Debug\net8.0\DelegatesExercise.dll
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\bin\Debug\net8.0\DelegatesExercise.pdb
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\obj\Debug\net8.0\DelegatesExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\obj\Debug\net8.0\DelegatesExercise.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\obj\Debug\net8.0\DelegatesExercise.AssemblyInfo.cs
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\obj\Debug\net8.0\DelegatesExercise.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\obj\Debug\net8.0\DelegatesExercise.dll
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\obj\Debug\net8.0\refint\DelegatesExercise.dll
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\obj\Debug\net8.0\DelegatesExercise.pdb
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\obj\Debug\net8.0\DelegatesExercise.genruntimeconfig.cache
+C:\Users\admin\source\repos\DelegatesExercise\DelegatesExercise\obj\Debug\net8.0\ref\DelegatesExercise.dll
