@@ -1,0 +1,239 @@
+.sidebar-div{
+    background-color: white;
+
+}
+.img-sidebar{
+    height: 20px;
+    padding-right: 20px;
+}
+ul>li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+ul{
+align-items: center;
+}
+
+
+
+nav a {
+
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    column-gap: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.hover-items1 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items1:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items2 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items2:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items3 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items3:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items4 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items4 {
+    
+    color: rgb(0, 0, 0);
+}
+
+.hover-items5 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items5:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+.hover-items4:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+.hover-items6 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items6:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items7 {
+    color: black;
+    padding: 10px;
+}
+
+.hover-items7:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.hover-items1:hover a {
+    color: white;
+}
+
+.hover-items2:hover a {
+    color: white;
+}
+
+.hover-items3:hover a {
+    color: white;
+}
+
+.hover-items4> a {
+    color: white;
+}
+
+.hover-items5:hover a {
+    color: white;
+}
+.hover-items6:hover a {
+    color: white;
+}
+.hover-items7:hover a {
+    color: white;
+}
+
+.navbar-1 {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.hover-items1>img{
+    padding-right: 20px;
+    height: 20px;
+    width: 20px;
+    align-items: baseline;
+}
+.hover-items2>img{
+    padding-right: 20px;
+    height: 20px;
+    width: 20px;
+    align-items: baseline;
+}
+.hover-items3>img{
+    padding-right: 20px;
+    height: 20px;
+    width: 20px;
+    align-items: baseline;
+}
+.hover-items4>img{
+    padding-right: 20px;
+    height: 20px;
+    width: 20px;
+    align-items: baseline;
+}
+.hover-items5>img{
+    padding-right: 20px;
+    height: 20px;
+    width: 20px;
+    align-items: baseline;
+}
+.hover-items6>img{
+    padding-right: 20px;
+    height: 20px;
+    width: 20px;
+    align-items: baseline;
+}
+.hover-items7>img{
+    padding-right: 20px;
+    height: 20px;
+    width: 20px;
+    align-items: baseline;
+}
+.blue-bg1 {
+  background-color: dodgerblue;
+    color: white;
+}
+.blue-bg2 {
+  background-color: dodgerblue;
+    color: white;
+}
+.blue-bg3 {
+  background-color: dodgerblue;
+    color: white;
+}
+.blue-bg4 {
+  background-color: dodgerblue;
+    color: white;
+}
+
+.blue-bg5 {
+  background-color: dodgerblue;
+    color: white;
+}
+.blue-bg6 {
+  background-color: dodgerblue;
+    color: white;
+}
+.blue-bg7 {
+  background-color: dodgerblue;
+    color: white;
+}
+.sidebar-div{
+    position: fixed;
+}
+
+@media (max-width:700px) {
+.sidebar-div{
+    position: fixed;
+}
+    .content-media{
+        display: none;
+        content: none;
+
+    }
+    .headings{
+        display: none;
+    }
+    .navbar-1{
+       padding: 10px;
+        content: none;
+        width: 30px;
+        height: 40px;
+    }
+    
+}
