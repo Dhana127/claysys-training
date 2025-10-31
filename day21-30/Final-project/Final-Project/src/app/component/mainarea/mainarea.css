@@ -497,13 +497,14 @@ tr:hover {
 
 
 
-@media (max-width:800px) {
+@media (max-width:900px) {
     .grid-container {
 
         grid-template-columns: auto;
     }
 
     .order-summary {
+        
         flex-direction: column;
     }
 
@@ -552,12 +553,21 @@ tr:hover {
    .order-date{
     display: none;
    }
+   .inside-display-area{
+        top: 300vh;
+    }
 }
-@media (max-width:450px){
+@media (max-width:425px){
     .merge-content-gap{
         display: none;
     }
     .checkbox-mob,.total-mob,.quantity-mob{
         display: none;
+    }
+    .display-area{
+        height: 100px;
+    }
+    .inside-display-area{
+        top: 300vh;
     }
 }

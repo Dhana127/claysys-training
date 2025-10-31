@@ -102,8 +102,14 @@ namespace FinalProjectBED.DataAccessLayer
             try
             {
                 using var con = new SqlConnection(connectionString);
-                var sqlcmd = new SqlCommand("update orderData set status=@Status where orderId=@OrderId",con);
+                var sqlcmd = new SqlCommand("update orderData set customerName=@CustomerName,trackingId=@TrackingId,orderDate=@OrderDate,quantity=@Quantity,address=@Address,totalPrice=@TotalPrice,status=@Status where orderId=@OrderId", con);
                 sqlcmd.Parameters.AddWithValue("@OrderId", order.OrderId);
+                sqlcmd.Parameters.AddWithValue("@CustomerName", order.CustomerName);
+                sqlcmd.Parameters.AddWithValue("@TrackingId", order.TrackingId);
+                sqlcmd.Parameters.AddWithValue("@OrderDate", order.OrderDate);
+                sqlcmd.Parameters.AddWithValue("@Quantity", order.Quantity);
+                sqlcmd.Parameters.AddWithValue("@Address", order.Address);
+                sqlcmd.Parameters.AddWithValue("@TotalPrice", order.TotalPrice);
                 sqlcmd.Parameters.AddWithValue("@Status", order.Status);
                 con.Open();
                 sqlcmd.ExecuteNonQuery();

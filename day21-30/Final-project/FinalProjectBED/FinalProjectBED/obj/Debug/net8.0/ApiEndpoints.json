@@ -44,7 +44,7 @@
   {
     "ContainingType": "FinalProjectBED.Controller.orderDataApi",
     "Method": "deleteOrder",
-    "RelativePath": "api/orderDataApi/delete",
+    "RelativePath": "api/orderDataApi/delete/{orderId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -52,7 +52,7 @@
       {
         "Name": "orderId",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

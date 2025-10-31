@@ -73,3 +73,8 @@ C:\Users\admin\source\repos\FinalProjectBED\FinalProjectBED\obj\Debug\net8.0\ref
 C:\Users\admin\source\repos\FinalProjectBED\FinalProjectBED\obj\Debug\net8.0\FinalProjectBED.pdb
 C:\Users\admin\source\repos\FinalProjectBED\FinalProjectBED\obj\Debug\net8.0\FinalProjectBED.genruntimeconfig.cache
 C:\Users\admin\source\repos\FinalProjectBED\FinalProjectBED\obj\Debug\net8.0\ref\FinalProjectBED.dll
+C:\Users\admin\source\repos\FinalProjectBED\FinalProjectBED\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\admin\source\repos\FinalProjectBED\FinalProjectBED\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\admin\source\repos\FinalProjectBED\FinalProjectBED\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\admin\source\repos\FinalProjectBED\FinalProjectBED\obj\Debug\net8.0\FinalProjectBED.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\admin\source\repos\FinalProjectBED\FinalProjectBED\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
