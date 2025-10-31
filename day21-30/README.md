@@ -1,48 +1,60 @@
-Introduction
+Project Overview
 
-This is the project using on Angular, C#.net & MS SQL to CRUD application.
-
-First i started backend application using visual studio community edition 
+This project is a CRUD (Create, Read, Update, Delete) application developed using Angular, C# .NET, and MS SQL Server. It demonstrates a full-stack implementation where the backend API is built with C# and ASP.NET Core, and the frontend is developed using the Angular framework.
 
 Back-End Development:
 
-i create model file named orderDTO used to transfer data from one layer
-to another layer.
+i. Setup and Model Creation:
 
-Then i connected my project to database for we need to install SQLClient
-package from Nuget package mamager.
+The backend was developed using Visual Studio Community Edition.
 
-Add connection String to appsettings.json
+A model class named orderDTO used to transfer data from one layer to another layer.
+
+ii. Database Connection:
+
+The application connects to SQL Server database.
+Install SQLClient package from Nuget package mamager.
+
+Add connection String to appsettings.json file:
 "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Database=orderDB;Trusted_Connection=True;Encrypt=False;"
-},
+}
 
-Write methods to get,create,update and delete data from database.
+iii. Data Access and CRUD Operations:
 
-Now, controller class , it is managing RESTful endpoints using
-DataAccessLayer. This controller handles CRUD operations.
+CRUD methods are implemented to fetch,create,update and delete records from database.
 
-Write CORS in program.cs file to access the API endpoint from frontend.
+iv. Controller Development:
 
-start the program the popup window will appear with url : http://localhost:5062
+Controller class is implemented to manage RESTful API endpoints.
 
-i added swagger to test endpoint and my application will be launched with
+The controller communicates with Data Access Layer to perform CRUD operations.
+
+v. CORS Configuration:
+
+CORS (Cross-Origin Resource Sharing) was enabled in program.cs file to allow the API request from the Angular frontend.
+
+vi. Testing with Swagger:
+
+Swagger was imtegrated to test API endpoint and documentation.
+When the application starts, it launches Swagger UI at:
+
 url : http://localhost:5062/swagger/index.html
 
 ![alt img](image-1.png)
 
 Front-End Development:
 
-in this project we use Angular framework for developing frontend application
+i. Angular Setup:
 
-To create angular project
-we need node.js 
-to check node is installed open command prompt type node -v
-if it gives like this v22.20.0 
-it means node version 22 is installed in your system
+ Angular framework is used for developing frontend application
 
-to chech angular type ng v in your command prompt
-if it gives like this 
+To check node is installed open command prompt type "node -v"
+Example output: v22.20.0 
+it means node version 22 is installed
+
+To check angular type "ng v" in your command prompt
+Example output(below img) :
 
 ![alt img](<Screenshot (11).png>)
 
@@ -50,39 +62,56 @@ angular cli is installed
 
 if any error occured
 need to install angular
+
 command prompt give this 
-npm install -g @angular/cli
+"npm install -g @angular/cli"
 
 Create Project in Angular
-ng new my-angular-app
+"ng new my-angular-app"
 
 change directory
-cd my-angular-app
+"cd my-angular-app"
 
 start appliction
-ng serve -o
+"ng serve -o"
 
 The -o flag automatically opens your application in your web browser, usually at http://localhost:4200/
 
 Generate component:
 
 change directory to src/app and give below command in terminal
-ng -g -c component-name
+"ng -g -c component-name"
 component will created and displayed in explorer in vs code
 
-i developed this project by following layout:
+
+ii. Application Layout:
+ project layout:
 ![alt img](Screenshot_31-10-2025_121212_onedrive.live.com.jpeg)
 
-my angular output :
+Angular output :
 
 ![alt img](screenshot-1761895022940.png)
 
-Responsive Design 
+Responsive Design:
 
-Tablet:
+Desktop view:
+
+![alt text](image-4.png)
+
+Tablet view:
 
 ![alt img](image-2.png)
 
-Mobile :
+Mobile view:
 
 ![alt img](image-3.png)
+
+Result:
+
+Backend URL: http://localhost:5062/
+
+Swagger UI: http://localhost:5062/swagger/index.html
+
+Frontend URL: http://localhost:4200/
+
+This full-stack application demonstrates smooth communication between Angular and ASP.NET Core through RESTful APIs, using MS SQL Server as the database.
