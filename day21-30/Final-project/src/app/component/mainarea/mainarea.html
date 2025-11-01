@@ -1,0 +1,284 @@
+<div class="display-area">
+  <div class="inside-display-area">
+    <div class="merge-content-gap">
+      <div class="content-display-area">
+        <h3>Order</h3>
+        <div class="left-display-area">
+          <label for="select-store">
+            <input type="text" class="input-options" list="browsers" name="browser" id="select-store-1" />
+            <label for="browser" id="select-store-1"></label>
+            <datalist id="browsers">
+              <option value="Bavaa Shop"></option>
+              <option value="The Chennai Mobiles"></option>
+              <option value="Apple"></option>
+              <option value="Redmi"></option>
+              <option value="Zudio"></option>
+            </datalist>
+          </label>
+          <div class="notification">
+            <img class="img-all-hw" src="https://img.icons8.com/?size=100&id=0qxdKWVkmxjy&format=png&color=228BE6"
+              alt="logo" />
+          </div>
+          <!-- .notification -->
+          <div class="profile-pic">
+            <img class="img-all-hw" src="https://img.icons8.com/?size=100&id=11730&format=png&color=000000"
+              alt="logo" />
+          </div>
+          <!-- .profile-pic -->
+        </div>
+        <!-- .left-display-area -->
+      </div>
+      <!-- .content-display-area -->
+      <div class="path-div">
+        <p><span>Home /</span> Order</p>
+      </div>
+      <!-- .path-div -->
+    </div>
+    <!--.merge-content-gap-->
+    <div class="order-summary">
+      <div class="summary-heading">
+        <h2>Order Summary</h2>
+      </div>
+      <div>
+        <button class="add-product" (click)="onAdd()">Add Product</button>
+      </div>
+      <!-- .add-product -->
+    </div>
+    <!-- .order-summary -->
+    <div class="flex-container">
+
+      <div class="display-order">
+        <p>Total Order</p>
+        <div class="order-datas">
+          <div class="order-datas-f">Total 560</div>
+          <div class="right-side">Last Week</div>
+        </div>
+      </div>
+      <!-- .display-order  -->
+      <div class="display-order-2">
+        <p>Completed Order</p>
+        <div class="order-datas">
+          <div class="order-datas-f">Total 400</div>
+          <div class="right-side">Last Week</div>
+        </div>
+      </div>
+      <!-- .display-order-2  -->
+      <div class="display-order-3">
+        <p>In Process Order</p>
+        <div class="order-datas">
+          <div class="order-datas-f">Total 160</div>
+          <div class="right-side">Last Week</div>
+        </div>
+      </div>
+      <!-- .display-order-3  -->
+
+    </div>
+    <!-- .flex-container -->
+    <div class="display-order-items">
+      <div class="order-items-head">
+        <div class="head-display-order-items order-items-head">
+          <h3>Order Items</h3>
+
+          <div class="nav-display-order-items">
+            <div class="nav-order-items">
+              <form class="search-bar" >
+                <input type="search" id="search-bar" placeholder="Search" (input)="onSearch($event.target.value)" />
+              </form>
+            </div>
+            <div class="right-nav-order-items">
+              <div class="filter">
+                <input type="checkbox" id="filter-toggle" class="dropdown-toggle" />
+                <label for="filter-toggle" class="filter-button"> Filter</label>
+                <ul class="options-list">
+                  <li><a (click)="filterByStatus('Delivered')">status Delivered</a></li>
+                  <li><a (click)="filterByStatus('Pending')">status Pending</a></li>
+                  <li><a (click)="filterByStatus('Shipped')">status Shipped</a></li>
+                </ul>
+              </div>
+              <div class="date-outer">
+                <div class="date">
+                  <label class="date-input-label"> Date </label>
+                </div>
+              </div>
+              <div class="export-outer">
+                <div class="export">
+                  <label>Export</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .nav-display-order-items  -->
+        </div>
+        <!-- .head-display-order-items  -->
+        <div class="table-order-list">
+          <div class="table-container">
+            <table class="order-table">
+              <thead>
+                <tr id="table-row-head">
+                  <th class="checkbox-mob"><input type="checkbox" id="select-all" /></th>
+                  <th>Order</th>
+                  <th>Customers</th>
+                  <th class="track-id">Tracking ID</th>
+                  <th class="order-date">Order Date</th>
+                  <th class="quantity-mob">Quantity</th>
+                  <th>Location</th>
+                  <th class="total-mob">Total</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let order of orders()">
+                  <td class="checkbox-mob"><input type="checkbox" /></td>
+                  <td>{{ order.orderId }}</td>
+                  <td>{{ order.customerName }}</td>
+                  <td class="track-id">{{ order.trackingId }}</td>
+                  <td class="order-date">{{ order.orderDate }}</td>
+                  <td class="quantity-mob">{{ order.quantity }}</td>
+                  <td>{{ order.address }}</td>
+                  <td class="total-mob">{{ order.totalPrice | currency }}</td>
+
+                  <td>
+                    <span [ngClass]="{
+                        'status-pending': order.status === 'Pending'||order.status === 'pending',
+                        'status-shipped': order.status === 'Shipped'||order.status === 'shipped',
+                        'status-delivered': order.status === 'Delivered'||order.status === 'delivered'
+                      }">
+                      • {{ order.status }}
+                    </span>
+                  </td>
+
+                  <td>
+                    <button class="action-btn" (click)="onEdit(order)">Edit</button>
+                    <button class="action-btn2" (click)="onDelete(order.orderId)">Delete</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- .order-table -->
+          </div>
+          <!-- .table-container -->
+        </div>
+        <!-- .table-order-list -->
+      </div>
+      <!--.order-items-head-->
+      <!-- </div>.head-display-order-items  -->
+    </div>
+    <!-- .display-order-items  -->
+  </div>
+  <!-- .inside-display-area -->
+</div>
+<!-- .display-area -->
+<!-- Edit Modal -->
+<div class="modal-backdrop" *ngIf="showEditModal">
+  <div class="modal">
+    <h2>Edit Order</h2>
+    <form [formGroup]="editForm" (ngSubmit)="submitEdit()">
+      <div class="popup-label">
+        <label>Customer Name:
+          <input formControlName="customerName" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Tracking ID:
+          <input formControlName="trackingId" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Order Date:
+          <input type="date" formControlName="orderDate" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Quantity:
+          <input type="number" formControlName="quantity" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Address:
+          <input formControlName="address" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Total Price:
+          <input type="number" formControlName="totalPrice" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Status:
+          <input formControlName="status" />
+        </label>
+      </div>
+      <div class="modal-actions">
+        <button class="action-btn" type="submit">Save</button>
+        <button class="action-btn2" type="button" (click)="closeModal()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- add product modal -->
+<div class="modal-backdrop" *ngIf="showAddModal">
+  <div class="modal">
+    <h2>Edit Order</h2>
+    <form [formGroup]="addForm" (ngSubmit)="submitAdd()">
+      <div class="popup-label">
+        <label>Order Id:
+          <input formControlName="orderId" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Customer Name:
+          <input formControlName="customerName" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Tracking ID:
+          <input formControlName="trackingId" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Order Date:
+          <input type="date" formControlName="orderDate" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Quantity:
+          <input type="number" formControlName="quantity" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Address:
+          <input formControlName="address" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Total Price:
+          <input type="number" formControlName="totalPrice" />
+        </label>
+      </div>
+      <br>
+      <div class="popup-label">
+        <label>Status:
+          <input formControlName="status" />
+        </label>
+      </div>
+      <div class="modal-actions">
+        <button class="action-btn" type="submit">Save</button>
+        <button class="action-btn2" type="button" (click)="closeModal()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
